@@ -10,11 +10,7 @@ const Navbar = () => {
   const [showText, setShowText] = useState(false);
   const [index, setIndex] = useState(0);
 
-  const texts = [
-    "시간이 지나도 변하지 않는 가치",
-    "아자아자 화이팅",
-    "아자아자 화3팅",
-  ];
+  const texts = ["시간이 지나도 변하지 않는 가치", " ", " "];
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -77,7 +73,7 @@ const Navbar = () => {
       >
         <Flex align="center" ml={"24px"}>
           <Link href="/">
-            <Text fontSize="xl">폐관 수련원</Text>
+            <Text fontSize="xl">COG</Text>
           </Link>
         </Flex>
 

@@ -10,7 +10,7 @@ import "./index.css";
 const images = [
   {
     src: "./1111.jpg",
-    text: "우리 이 어디 싶이 위하여서. 꾸며 얼마나 있는 살 이것은 청춘 있는가? 못할 넣는 위하여, 커다란 길지 있으며, 만물은 있으랴? 천지는 인간은 아니더면, 보이는 않는 아니다.",
+    text: "",
     textPosition: {
       width: "50%",
       position: "absolute",
@@ -22,7 +22,7 @@ const images = [
   },
   {
     src: "./2222.jpg",
-    text: "트고, 풀밭에 피에 하여도 열락의 가는 쓸쓸하랴? 무엇을 생생하며, 창공에 투명하되 더운지라 부패뿐이다. 같은 커다란 고동을 있는 놀이 할지니, 끓는 오아이스도 있으랴?",
+    text: "",
     textPosition: {
       width: "50%",
       position: "absolute",
@@ -33,7 +33,7 @@ const images = [
   },
   {
     src: "./3333.jpg",
-    text: "뜨거운지라, 이상이 쓸쓸한 눈에 싸인 구하지 무엇이 끓는다. 풍부하게 어디 가슴이 심장은 낙원을 길지 미인을 풀이 사막이다. 새가 천하를 눈이 끝에 부패를 천자만홍이 불러 못하다 있으랴?",
+    text: "",
     textPosition: {
       width: "50%",
       position: "absolute",

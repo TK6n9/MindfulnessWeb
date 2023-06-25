@@ -6,7 +6,7 @@ const CardList = () => {
   return (
     <>
       <Flex align={"center"} justify={"center"} m={"48px"}>
-        <Text fontSize="4xl">무엇을 하는가요?</Text>
+        <Text fontSize="4xl">무엇을 하는가?</Text>
       </Flex>
       <Flex
         mr={"24px"}
@@ -16,30 +16,25 @@ const CardList = () => {
       >
         <Flex direction={"column"} alignItems="center" w={"25%"}>
           <Icon as={SettingsIcon} boxSize={20} mb={"48px"} />
-          <Text textAlign="center">
-            Inspire Gain inspiration from our curated collections
-          </Text>
+          {/* <Text textAlign="center">삶의 톱니바퀴</Text> */}
         </Flex>
         <Flex direction={"column"} alignItems="center" w={"25%"}>
           <Icon as={ViewIcon} boxSize={20} mb={"48px"} />
-          <Text textAlign="center">
-            Personalise Customise according to your style and the aspect of your
-            outside space
-          </Text>
+          {/* <Text textAlign="center">보이는 것과 보이지 않는 것은 무엇인가</Text> */}
         </Flex>
         <Flex direction={"column"} alignItems="center" w={"25%"}>
           <Icon as={TimeIcon} boxSize={20} mb={"48px"} />
-          <Text textAlign="center">
-            Deliver Plants are selected from our award-winning nursery and
-            delivered to your door
-          </Text>
+          {/* <Text textAlign="center">
+            씨앗을 심는 시기, 새싹이 자라는 시기, 성장하는 시기, 열매를 맺는
+            시기 존재하는가
+          </Text> */}
         </Flex>
         <Flex direction={"column"} alignItems="center" w={"25%"}>
           <Icon as={ChatIcon} boxSize={20} mb={"48px"} />
-          <Text textAlign="center">
+          {/* <Text textAlign="center">
             Empower Receive step by step guidance including planting plans to
             help you care for your outside space
-          </Text>
+          </Text> */}
         </Flex>
       </Flex>
     </>

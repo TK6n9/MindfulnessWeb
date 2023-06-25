@@ -47,13 +47,11 @@ const Footer = () => {
         >
           <Flex direction="column">
             <Text fontSize="4xl" mb={"24px"}>
-              폐관 수련원 조교모집
+              COG
             </Text>
-            <Text fontSize="md" mb={"24px"}>
-              폐관수련 1급 자격증발급 지금 신청하세요.
-            </Text>
+            <Text fontSize="md" mb={"24px"}></Text>
             <InputGroup size="sm" mb={"24px"}>
-              <Input placeholder="이메일 주소" />
+              <Input placeholder="이메일" />
               <InputRightAddon children=".com" />
             </InputGroup>
             <Flex direction={"row"} mb={"48px"} mt={"24px"}>
@@ -83,7 +81,7 @@ const Footer = () => {
           <Flex direction="row">
             <Flex direction="column" alignItems={"flex-start"} mr={"150px"}>
               <Text mb={"24px"} fontSize="3xl">
-                절차탁마
+                마음수련
               </Text>
               <Link href="">
                 <Text mb={"24px"}>우리의 이야기</Text>
@@ -107,7 +105,7 @@ const Footer = () => {
               </Link>
 
               <Link href="">
-                <Text mb={"24px"}>계좌 후원</Text>
+                <Text mb={"24px"}>후원하다</Text>
               </Link>
             </Flex>
           </Flex>
@@ -151,10 +149,10 @@ const Footer = () => {
                 시간이 지나도 변하지 않는 가치를 제공합니다.
               </Text>
               <Text color="white" fontSize="md" w={"50%"} mt={"50px"}>
-                외부 공간을 집 내부만큼 스타일리시하게 만들고 싶은 분들을 위해
+                {/* 외부 공간을 집 내부만큼 스타일리시하게 만들고 싶은 분들을 위해
                 엄선된 식물과 액세서리를 가든 센터 가격으로 제공합니다. RHS
                 메달을 수상한 정원 디자이너가 전문적으로 디자인하여 현관까지
-                배달해 드립니다.
+                배달해 드립니다. */}
               </Text>
             </Flex>
           </Flex>
